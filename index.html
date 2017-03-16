@@ -1,0 +1,42 @@
+
+<!doctype html>
+<html>
+<head>
+ <title>Javascript disappearing circle</title>
+ <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+ <style type="text/css">
+	
+#container{
+width:100px;
+height:100px;
+background-color:red;
+border-radius:50px;
+}
+
+</style>
+</head>
+<body>
+
+<div id="container">
+
+	
+	
+</div>
+
+   <script type="text/javascript">	
+   
+alert("loaded");
+   
+	document.getElementById("container").onclick=function() {	 
+		
+		document.getElementById("container").style.display="none";
+   }
+   </script>	 
+
+	
+</body>
+	
+</html>
